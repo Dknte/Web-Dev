@@ -1,0 +1,16 @@
+p{
+
+	background: blue;
+	color: white;
+	display: block;
+	width: 100px;
+	height: 100px;
+	border: 10px solid black;
+	border-radius: 100px;
+	margin: auto;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 20px;
+
+}

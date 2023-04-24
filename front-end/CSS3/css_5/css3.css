@@ -1,0 +1,66 @@
+/* 12 flexbox
+
+contenedor y contenido
+
+flex container - flex item
+
+main axis ( main-start - main-end )
+
+cross axis ( cross-start - cross-end )
+
+--propiedades que se le aplican al contenedor--
+
+flex-direction
+
+flex-wrap: no-wrap - wrap - wrap-reverse;
+
+flex-flow: flex-direction flex-wrap;
+
+justify-content: center, space-arround, space-between, space-evenly
+(main axis)
+
+align-tems: flex-start, center, flex-end, stretch ( cross axis )
+
+align-content:
+
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+.flex-container{
+
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #3344bb;
+    padding: 2px;
+    border: 2px solid black;
+
+
+}
+
+.flex-item{
+
+    background-color: cornsilk;
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    font-size: 30px;
+    border: 2px solid black;
+    line-height: 90px;
+    text-align: center;
+    
+}
+
+.flex-container div:first-child{
+
+    background: red;
+  
+}
+
+.flex-container div:last-child{
+
+    background: yellow;
+  
+}

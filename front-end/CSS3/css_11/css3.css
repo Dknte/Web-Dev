@@ -1,0 +1,55 @@
+*{
+    font-family: 'sen', sans-serif;
+}
+
+.content{
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.nav li{
+
+    display: inline-block;
+    
+}
+
+.nav, .header, .main, .aside, .article, .footer{
+
+    padding: 20px;
+    
+}
+
+.header{
+
+    background: lightblue;
+    flex-basis: 60px;
+
+}
+
+.article{
+
+    background: slateblue;
+    flex-basis: 300px;
+    flex-grow: 2;
+    flex-shrink: 0;
+
+}
+
+.aside{
+
+    background: darkslateblue;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+}
+
+.footer{
+
+    background: violet;
+    flex-grow: 1;
+
+}

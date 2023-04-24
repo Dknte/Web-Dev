@@ -1,0 +1,128 @@
+
+  *{
+  	padding: 0px;
+  	margin: 0px;
+  	font-family: 'petett',sans-sefrif, cursive; 
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center; /* X */
+    align-items: flex-end; /* Y  (relacionado con align-self) */
+}
+
+
+.header{
+
+	background-color: blue;
+	border-radius: 50%;
+	border: 10px solid blue;
+	text-align: center;
+	margin: auto;
+	width: 600px;
+	
+}
+
+
+.header h1{
+	
+	/*display: inline-block; /* como centrar el inline-block ? */
+	background-color: rgb(32, 121, 255);
+	color: wheat;
+	text-align: center;
+	margin: auto;
+	width: 500px;
+	padding: 20px;
+	border: 10px solid yellow;
+	border-radius: 50%;
+	font-size: 50px; 
+}
+
+.article p{
+
+	text-align: center;
+	font-size: 30px;
+}
+/* em es una medidad relativa, su tamaño dependera de la caja que la contenga */
+
+.contact-form {
+	
+	/*width: 50vw; 
+	height: 5vh; /* vh = viewport-height – altura de la ventana grafica*/ 
+	border-radius: 40px;
+	display: block;
+	width: 500px;
+	margin: auto;
+	font-size: 40px;
+	color: yellow;
+	background-color: rgb(32, 121, 255);
+	text-align: center;
+
+}
+
+.contact-form__field{
+
+	color: blue;
+	background-color: yellowgreen;
+	border-radius: 30px;
+	font-size: 20px;
+}
+
+.contact-form__field--active{
+
+	color: green;
+	background-color: yellowgreen;
+	font-size: 20px;
+	border-radius: 30px;
+	margin-bottom: 12px;
+
+}
+
+.btn{
+
+	color: black;
+	background-color: rgb(32, 121, 255);
+	padding: 15px;
+	border-color: rgb(32, 121, 255);
+	width: 500px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px; 
+
+}
+/* en CSS3 tenemos 2 unidades de medida, las relativas y las fijas ( estaticas y dinamicas )
+, las fijas son los pixeles, milimetros, los puntos, los centimetros */
+
+/* por defecto del navegador 1 em es 16 pixeles */ 
+
+/* font-size cambia el tamaño de las letras */
+
+/* es posible usar tipografias externas desde fonts.google usando un link y tambien es posible
+descargar esas tipografias y linkearlas como un archivo .css */
+
+/* se puede usar normalize para reconfigurar las opciones del navegador, es importante buscar
+en el archivo normalize la etiqueta img y agregar en ella max-width: 100% */
+
+/* existen dos modelos de caja, las que son en linea y las que son en bloque */
+
+/* los modelos de cajas en bloque son las mas importantes, las que forman bloques enteros */
+/* hello world */
+ .footer{
+
+/*	padding: 30px;*/
+	background-color: rgb(32, 121, 255);
+	color: white;
+	/*text-align:  center;*/
+/*	margin: auto;*/
+/*	width: 100%; /* margin: 0 auto 200px auto; /* superior, derecho, inferior, izquierdo */
+    bottom: 0; 
+	/*position: fixed;*/
+	/*clear: both;*/
+	display:flex;
+
+	justify-content: center; /* X */
+    align-items: flex-end; /* Y  (relacionado con align-self) */
+	align-content: center;
+	justify-items: baseline;
+
+}

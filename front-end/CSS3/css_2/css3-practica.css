@@ -1,0 +1,69 @@
+
+
+div{
+  
+    display: block;
+    background: yellow;
+    position: absolute;
+}
+
+div div{  /* de esta forma estamos seleccionando a los div que estan dentro de los otros div */
+    height: 100px;
+    width: 100px;
+    background: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.footer{
+    height: 200px;
+    background-color: blue;
+    bottom: -3;
+    position: static;
+   
+}
+
+.texto{
+    font-size: 50px;
+    top: 1300px;
+    position: static;
+}
+
+.contenedor{
+    position: relative;
+    border: 6px solid red;
+    margin: 10% auto;
+    height: 550px;
+    width: 550px;
+   
+}
+
+.caja1{
+    right: 0;
+    bottom: 0;
+    background-color: green;
+}
+
+.caja2{
+    background-color: green;
+    right: 0;
+}
+
+.caja3{
+    background-color: green;
+    top: 0;
+}
+
+.caja4{
+    background-color: green;
+    bottom: 0;
+}
+
+.caja5{
+    background-color: green;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

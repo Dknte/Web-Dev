@@ -1,0 +1,946 @@
+* {
+
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 100;
+     font-size: 18px;
+     padding: 0;
+     margin: 0;
+ 
+ }
+ 
+body{
+ 
+     background: radial-gradient(circle, #fff, #bbb);
+ 
+ }
+ 
+.grid-container{ /* CONTAINER 0 */
+ 
+     display: grid;
+     grid-template-rows: 150px 150px 150px;
+     grid-template-columns: 150px 150px 150px;
+ 
+ }
+ 
+.grid-item{
+ 
+     border: 2px solid #000;
+ 
+ }
+/* CTRL + H PARA REEMPLAZAR */
+/* ------------------------------------------------------------------ */
+
+.grid-container1{ /* CONTAINER 1 */
+
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: repeat(5,100px) 1fr; /*grid explicito*/
+    grid-template-columns: repeat(3,150px);  /*grid explicito*/
+    background: rgb(17, 100, 255);
+    grid-auto-columns: 2fr; /* grid implicito */
+    grid-auto-rows: 200px;  /* grid implicito */
+    grid-auto-flow: dense;  /* grid cambiar flujo del grid implicito de fila a columna */
+
+}
+
+.grid-item1{
+
+    border: 2px solid #000;
+
+}
+
+/********************************************************************************/
+
+.mario-template
+{   
+    justify-content: center;
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: repeat(16,55px) 1fr; /*grid explicito*/
+    grid-template-columns: repeat(16,55px);  /*grid explicito*/
+
+}
+
+.grid-mario{
+
+    background: #fff;
+    border: 1px solid #000;
+
+}
+
+
+
+ .grid-mario:nth-child(6){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(7){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(8){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(9){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(10){
+
+    background: red;
+
+}
+
+
+
+.grid-mario:nth-child(21){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(22){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(23){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(24){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(25){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(26){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(27){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(28){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(29){
+
+    background: red;
+
+}
+
+
+
+.grid-mario:nth-child(37){
+
+    background: #804000;
+
+}
+
+
+.grid-mario:nth-child(38){
+
+    background: #804000;
+
+}
+
+
+.grid-mario:nth-child(39){
+
+    background: #804000;
+
+}
+
+
+
+.grid-mario:nth-child(40){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(41){
+
+    background: #fcfc7d;
+
+}
+
+
+
+.grid-mario:nth-child(42){
+
+    background: #000;
+
+}
+
+
+
+.grid-mario:nth-child(43){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(52){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(53){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(54){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(55){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(56){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(57){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(58){
+
+    background: #000;
+
+}
+
+.grid-mario:nth-child(59){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(60){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(61){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(68){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(69){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(70){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(71){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(72){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(73){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(74){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(75){
+
+    background: #000;
+
+}
+
+.grid-mario:nth-child(76){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(77){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(78){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(85){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(86){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(87){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(88){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(89){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(90){
+
+    background: #000;
+
+}
+
+.grid-mario:nth-child(91){
+
+    background: #000;
+
+}
+
+.grid-mario:nth-child(92){
+
+    background: #000;
+
+}
+
+.grid-mario:nth-child(93){
+
+    background: #000;
+
+}
+
+
+.grid-mario:nth-child(102){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(103){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(104){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(105){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(106){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(107){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(117){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(118){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(119){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(120){
+
+    background: red;
+
+}
+.grid-mario:nth-child(121){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(122){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(123){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(124){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(132){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(133){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(134){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(135){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(136){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(137){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(135){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(138){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(139){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(140){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(141){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(147){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(148){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(149){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(150){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(151){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(152){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(153){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(154){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(155){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(156){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(157){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(158){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(163){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(164){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(165){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(166){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(167){
+
+    background: yellow;
+
+}
+
+.grid-mario:nth-child(168){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(169){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(170){
+
+    background: yellow;
+
+}
+
+.grid-mario:nth-child(171){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(172){
+
+    background: red;
+
+}
+
+.grid-mario:nth-child(173){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(174){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(179){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(180){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(181){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(182){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(183){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(184){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(185){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(186){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(187){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(188){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(189){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(190){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(195){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(196){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(197){
+
+    background: blue;
+
+}
+.grid-mario:nth-child(198){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(199){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(200){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(201){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(202){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(203){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(204){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(205){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(206){
+
+    background: #fcfc7d;
+
+}
+
+.grid-mario:nth-child(213){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(214){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(215){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(218){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(219){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(220){
+
+    background: blue;
+
+}
+
+.grid-mario:nth-child(228){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(229){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(230){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(235){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(236){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(237){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(243){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(244){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(245){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(246){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(251){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(252){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(253){
+
+    background: #804000;
+
+}
+
+.grid-mario:nth-child(254){
+
+    background: #804000;
+
+}
